@@ -1,0 +1,19 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<form method="POST" action="./uploadFile" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td><label path="file">Select a file to upload</label></td>
+            <td><input type="file" name="file" /></td>
+        </tr>
+          <label for="tag name">Tag Name:</label><br>
+            <input type="text"  name="tagname"><br>
+          <label for="Attribute name">Attribute Name:</label><br>
+            <input type="text"  name="attributename"><br>
+          <label for="Attribute value">Attrvalue value:</label><br>
+            <input type="text"  name="attributevalue"><br>
+        <tr>
+            <td><input type="submit" value="Submit" /></td>
+        </tr>
+    </table>
+</form>
+</html>
